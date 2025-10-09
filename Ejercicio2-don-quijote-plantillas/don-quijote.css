@@ -10,7 +10,8 @@ body {
   font-family: sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: left;
 }
 
@@ -22,4 +23,38 @@ p {
 footer {
   border-top: black 3px solid;
   color: black;
+}
+
+@media (max-width: 479px) {
+  body {
+    color: #EEFF04;
+    background-color: #BF4040;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 719px) {
+  body {
+    color: #211E75;
+    background-color: #80BF40;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1023px) {
+  body {
+    color: #6D0000;
+    background-color: #40BFBF;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    color: #A55563;
+    background-color: #CCB3E6;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
 }
